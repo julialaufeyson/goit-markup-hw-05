@@ -615,6 +615,8 @@ button {
 .modal-btn:hover,
 .modal-btn:focus {
     background-color: #404bbf;
+    border: none;
+    fill: #ffffff;
 }
 
 .modal-btn-icon {
@@ -674,7 +676,7 @@ button {
     font-size: 12px;
     font-weight: 400;
     line-height: 1.17;
-    letter-spacing: 0,04em;
+    letter-spacing: 0.04em;
 }
 
 .form-field {
@@ -793,4 +795,8 @@ text-decoration-line: underline;
 
 .checkbox:checked + .form-agreement-checkbox > .form-agreement-icon {
     opacity: 1;
+    background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD; 
+    
 }
