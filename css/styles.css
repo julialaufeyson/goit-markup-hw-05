@@ -742,8 +742,8 @@ button {
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
-    line-height: 1,17;
-    letter-spacing: 0,04;
+    line-height: 1.17;
+    letter-spacing: 0.04;
 }
 
 /* custom checkbox */
@@ -756,8 +756,8 @@ button {
     color: #8E8F99;
     font-family: Roboto;
     font-size: 12px;
-    line-height: 1,17;
-    letter-spacing: 0,04em;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 }
 
 .checkbox-link {
@@ -768,6 +768,8 @@ font-weight: 400;
 line-height: 16px;
 letter-spacing: 0.48px;
 text-decoration-line: underline;
+line-height: 1.17;
+letter-spacing: 0.04em;
 }
 
 .form-agreement-checkbox {
@@ -788,15 +790,15 @@ text-decoration-line: underline;
     opacity: 0;
 }
 
-.checkbox:checked + .form-agreement-checkbox {
+.checkbox:checked+.form-agreement-checkbox {
     background: #404BBF;
     border: none;
 }
 
-.checkbox:checked + .form-agreement-checkbox > .form-agreement-icon {
+.checkbox:checked+.form-agreement-checkbox>.form-agreement-icon {
     opacity: 1;
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD; 
-    
+
 }
