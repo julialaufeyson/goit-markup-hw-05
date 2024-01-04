@@ -786,19 +786,28 @@ letter-spacing: 0.04em;
 }
 
 .form-agreement-icon {
-    fill: #fff;
     opacity: 0;
+    fill: #fff;
 }
 
-.checkbox:checked+.form-agreement-checkbox {
+/* .checkbox:checked + .form-agreement > .form-agreement-checkbox {
     background: #404BBF;
+    fill: #F4F4FD;
     border: none;
 }
 
-.checkbox:checked+.form-agreement-checkbox>.form-agreement-icon {
+.checkbox:checked + .form-agreement-checkbox > .form-agreement-icon {
     opacity: 1;
-    background-color: #404BBF;
+
+} */
+
+.checkbox:checked + .form-agreement > .form-agreement-checkbox {
+    background: #404BBF;
+    fill: #F4F4FD;
     border: none;
-    fill: #F4F4FD; 
+}
+
+.checkbox:checked + .form-agreement > .form-agreement-checkbox > .form-agreement-icon {
+    opacity: 1;
 
 }
